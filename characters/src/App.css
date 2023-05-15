@@ -2,29 +2,6 @@
   text-align: center;
 }
 
-.App-logo { 
-  width: 35%;
-  height: 10%;
-  position: relative;
-  left: 70vh;
-  /*top: -25vh; /* ajustar los valores para mover la imagen */
-  pointer-events: none;
-}
-
-.App-headerlogo {
-  background-color: white ;
-  min-height: 50%;
-  min-width: 100%;
-  position: relative;
-  top: -35vh; /* ajustar los valores para mover la imagen */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-header {
   background-color: #E41313 ;
   min-height: 100vh;
