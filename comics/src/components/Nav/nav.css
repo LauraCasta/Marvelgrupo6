@@ -1,0 +1,32 @@
+.nav_logo { 
+    width: 35%;
+    height: 10%;
+    position: relative;
+    left: -0.5vh;/* ajustar los valores para mover la imagen */
+    pointer-events: none;
+  }
+  
+.nav{
+    background-image: linear-gradient(60deg, white,  #d1ebf7) ;    
+    display: flex;
+    flex-direction: row-reverse;
+    height: 45%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+}
+
+.nav_items_cuadro{
+    background-color: red;
+    display:inline-block;
+    width: 150px;
+    height: 32px; 
+}
+.nav_items a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 20px;
+    color: white;
+    position: relative;
+    left: 1vh;
+    text-decoration: none;
+}
