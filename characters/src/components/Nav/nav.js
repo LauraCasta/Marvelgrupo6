@@ -12,7 +12,6 @@ const nav = () => {
                     <a href="#" className="nav_items_cuadro"> SERIES </a>
                     <a href="#" className="nav_items_cuadro"> STORIES </a>                                        
                 </div>
-                
             </div>
         )
 }
