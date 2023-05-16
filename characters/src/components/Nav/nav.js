@@ -8,7 +8,7 @@ const nav = () => {
                 <img src={log}  className="nav_logo"/>
                 <div className="nav_items">
                     <a href="#" className="nav_items_cuadro"> CHARACTERS </a>
-                    <a href="#" className="nav_items_cuadro"> COMICS </a>
+                    <a href="http://comics6-bucket.s3-website-us-east-1.amazonaws.com" className="nav_items_cuadro"> COMICS </a>
                     <a href="#" className="nav_items_cuadro"> SERIES </a>
                     <a href="#" className="nav_items_cuadro"> STORIES </a>                                        
                 </div>
