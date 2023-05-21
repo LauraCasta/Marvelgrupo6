@@ -2,7 +2,7 @@ import React from "react";
 import log from '../images/log.jpeg'
 import "./nav.css"
 
-const nav = () => {
+const Nav = () => {
     return (
             <div className="nav">
                 <img src={log}  className="nav_logo"/>
@@ -17,4 +17,4 @@ const nav = () => {
         )
 }
 
-export default nav
+export default Nav
