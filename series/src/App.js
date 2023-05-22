@@ -3,10 +3,7 @@ import Nav from './componentes/Nav/nav'
 import Banner from './componentes/Banner/banner'
 import Tarjes from './componentes/tarjetas/tarjes'
 
-
-
 function App() {
-  
   return (
     <div className="App">
       <div> <Nav/> </div>
@@ -18,5 +15,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
