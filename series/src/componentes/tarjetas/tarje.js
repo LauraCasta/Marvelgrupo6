@@ -12,7 +12,7 @@ function tarje({title, imagen, characters, description, creators}) {
             <h2 className='card-title'>{title ? title:" NO HAY TÍTULO "}</h2>
             <h4>{characters ? characters: " NO HAY PERSONAJE(S) "} </h4>
             <h5>{description ? description: " NO HAY DESCRIPCIÓN "} </h5>
-            <h6> {creators ? creators: " NO HAY CREADORES PRINCIPE "} </h6>
+            <h6> {creators ? creators: " NO HAY CREADORES "} </h6>
             
             
             
