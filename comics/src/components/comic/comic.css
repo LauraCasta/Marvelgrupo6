@@ -12,6 +12,10 @@
     color: black
   }
 
+.card_fila:hover{
+  box-shadow: 5px 10px 20px 10px red;
+}
+
 .card_fila{ 
     margin: 10px;;
     font-size: calc(10px + 2vmin);
