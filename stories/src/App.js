@@ -13,11 +13,6 @@ function App() {
           <h1>STORIES</h1>
           <div><Historias/></div>
       </div>
-      
-     
-      
-        
-      
     </div>
   );
 }
