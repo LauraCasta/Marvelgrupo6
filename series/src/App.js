@@ -1,21 +1,19 @@
 import './App.css';
+import Nav from './componentes/Nav/nav'
+import Banner from './componentes/Banner/banner'
+import Tarjes from './componentes/tarjetas/tarjes'
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div> <Nav/> </div>
+      <div> <Banner/> </div>
+      <div className='App_titulo'>
+        <h1> SERIES </h1>
+      </div>
+      <div> <Tarjes/> </div>
     </div>
   );
 }
