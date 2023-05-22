@@ -20,7 +20,7 @@ function Tarjes() {
                     tarje.map(tarjes => (
                         <div className="col-md-4" key={tarjes.id}>
                             <Tarje title={tarjes.title} imagen={tarjes.thumbnail.path+'.'+tarjes.thumbnail.extension} characters={tarjes.characters.items[0] ? tarjes.characters.items[0].name:''} 
-                            description={tarjes.description} creators={tarjes.creators.items[0] ? tarjes.creators[0].items:''}/>
+                            description={tarjes.description} creators={tarjes.creators.items[0] ? tarjes.creators.items[0].name:''}/>
                         </div>
                     ))
                 }
