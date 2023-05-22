@@ -6,6 +6,7 @@ import Tarjes from './componentes/tarjetas/tarjes'
 
 
 function App() {
+  
   return (
     <div className="App">
       <div> <Nav/> </div>
